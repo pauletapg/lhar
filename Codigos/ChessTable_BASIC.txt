@@ -1,0 +1,17 @@
+  10 A$=" T | C | B | D | R | B | C | T
+   "
+  20 B$=" T | C | B | R | D | B | C | T
+   "
+  30 C$=" P | P | P | P | P | P | P | P
+   "
+  40 D$="   |   |   |   |   |   |   |
+   "
+  50 E$="---|---|---|---|---|---|---|--
+  -"
+  60 FOR I=0 TO 7
+  70 IF I=0 THEN PRINT A$,E$ ELSEIF I=1
+   THEN PRINT C$,E$ ELSEIF I=6 THEN PRI
+  NT C$,E$ ELSEIF I=7 THEN PRINT B$ ELS
+  E PRINT D$,E$
+  80 NEXT
+  RUN 

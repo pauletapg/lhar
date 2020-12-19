@@ -1,0 +1,23 @@
+Início
+   Var 
+      i=0:inteiro
+   ENQUANTO i<8 FAÇA
+      SE i=0 ENTÃO
+         Escrever ("\t T | C | B | D | R | B | C | T \n \t---|---|---|---|---|---|---|---\n")
+      SE i=1 ou i=6 ENTÃO
+	 Escrever ("\t P | P | P | P | P | P | P | P \n \t---|---|---|---|---|---|---|---\n")   
+      SE i=7 ENTÃO
+         Escrever ("\t T | C | B | R | D | B | C | T \n")
+      SE i>1 e i<6 ENTÃO
+         Escrever ("\t   |   |   |   |   |   |   |   \n \t---|---|---|---|---|---|---|---\n")
+      i <- i+1
+   FIM ENQUANTO
+Fim
+   
+   
+   
+   
+   
+   
+   
+   
